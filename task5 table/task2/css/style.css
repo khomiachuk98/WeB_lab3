@@ -1,0 +1,23 @@
+.main{
+    width: 600px;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1.5px solid black;
+}
+
+td:nth-child(even) {
+    background-color: #E4FFB7;
+}
+
+td:nth-child(odd) {
+    background-color: #EFFFD2;
+}
+
+tr:first-child td {
+    text-align: center;
+    font-weight: bolder;
+    background-color: #80B327;
+    color: white;
+}
